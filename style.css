@@ -42,7 +42,6 @@ body {
   flex-direction: column;
   border-radius: 1rem;
   margin-bottom: 10px;
-  font-family: "Geist Mono", monospace;;
 }
 
 .calculator .output .prev-operand,
@@ -63,8 +62,7 @@ body {
   word-wrap: break-word;
   min-height: 70px;
   color: var(--optional);
-  font-family: "Poppins", sans-serif;
-  caret-color: var(--primary);
+  font-family: "Geist Mono", monospace;
   transition: font-size 0.2s;
 }
 
