@@ -68,6 +68,8 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
       if (previous === 90 && current === 6) {
         window.location.assign("https://youtu.be/nVcw_SzbV50?si=OVvNHaMuA0SZbr3n")
+      } else if (previous === 19 && current === 11) {
+        window.location.assign("https://youtu.be/4F2oOGDyWeY?si=yZdD1I2WakrvG7zo")
       }
 
       this.currOperand = result;
