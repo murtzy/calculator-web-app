@@ -66,6 +66,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
         default:
       }
 
+      // easter egg
       if (previous === 90 && current === 6) {
         window.location.assign("https://youtu.be/nVcw_SzbV50?si=OVvNHaMuA0SZbr3n")
       } else if (previous === 19 && current === 11) {
