@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=backspace" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="output">
+        <div class="prev-operand" data-prev-operand></div>
+        <div class="curr-operand" data-curr-operand></div>
+      </div>
+
+      <!-- row 1 -->
+      <button data-clear class="clear span-two">C</button>
+      <button data-delete class="oke">
+        <span class="material-symbols-outlined"> backspace </span>
+      </button>
+      <button data-operator class="operator">÷</button>
+
+      <!-- row 2 -->
+      <button data-number>1</button>
+      <button data-number>2</button>
+      <button data-number>3</button>
+      <button data-operator class="operator">×</button>
+
+      <!-- row 3 -->
+      <button data-number>4</button>
+      <button data-number>5</button>
+      <button data-number>6</button>
+      <button data-operator class="operator">-</button>
+
+      <!-- row 4 -->
+      <button data-number>7</button>
+      <button data-number>8</button>
+      <button data-number>9</button>
+      <button data-operator class="operator">+</button>
+
+      <!-- row 5 -->
+      <button data-number>.</button>
+      <button data-number>0</button>
+      <button data-equals class="span-two">=</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
